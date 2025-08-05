@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amped Promoter Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f7f7f7;
+    }
+    h2, h3 {
+      margin-top: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: left;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 6px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Amped Promoter Form</h2>
+
+  <!-- General Info -->
+  <h3>General Information</h3>
+  <table>
+    <tr><td>Time In</td><td><input type="time" name="time_in"></td></tr>
+    <tr><td>Region & Venue/Outlet</td><td><input type="text" name="region_outlet"></td></tr>
+    <tr><td>Tea Break</td><td><input type="time" name="tea_break"></td></tr>
+    <tr><td>BA Name & Number</td><td><input type="text" name="ba_name_number"></td></tr>
+    <tr><td>Lunch Time</td><td><input type="time" name="lunch_time"></td></tr>
+    <tr><td>Set Up</td><td>
+      <select name="setup">
+        <option value="">--Select--</option>
+        <option value="aisle">AISLE</option>
+        <option value="entrance">ENTRANCE</option>
+        <option value="outside">OUTSIDE</option>
+      </select>
+    </td></tr>
+    <tr><td>Time Out</td><td><input type="time" name="time_out"></td></tr>
+    <tr><td>Date of Promotion</td><td><input type="date" name="date"></td></tr>
+  </table>
+    
+<!-- Products Section -->
+<h3>Products</h3>
+<table>
+  <tr>
+    <th>Product</th><th>Price</th><th>Not Available</th>
+    <th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Day 5</th><th>Total</th>
+  </tr>
+
+  <!-- Row 1 -->
+  <tr>
+    <td><input type="text" name="product_1"></td>
+    <td><input type="text" name="price_1"></td>
+    <td><input type="checkbox" name="na_1"></td>
+    <td><input type="number" name="day1_1"></td>
+    <td><input type="number" name="day2_1"></td>
+    <td><input type="number" name="day3_1"></td>
+    <td><input type="number" name="day4_1"></td>
+    <td><input type="number" name="day5_1"></td>
+    <td><input type="number" name="total_1" readonly></td>
+  </tr>
+
+  <!-- Row 2 -->
+  <tr>
+    <td><input type="text" name="product_2"></td>
+    <td><input type="text" name="price_2"></td>
+    <td><input type="checkbox" name="na_2"></td>
+    <td><input type="number" name="day1_2"></td>
+    <td><input type="number" name="day2_2"></td>
+    <td><input type="number" name="day3_2"></td>
+    <td><input type="number" name="day4_2"></td>
+    <td><input type="number" name="day5_2"></td>
+    <td><input type="number" name="total_2" readonly></td>
+  </tr>
+
+  <!-- Row 3 -->
+  <tr>
+    <td><input type="text" name="product_3"></td>
+    <td><input type="text" name="price_3"></td>
+    <td><input type="checkbox" name="na_3"></td>
+    <td><input type="number" name="day1_3"></td>
+    <td><input type="number" name="day2_3"></td>
+    <td><input type="number" name="day3_3"></td>
+    <td><input type="number" name="day4_3"></td>
+    <td><input type="number" name="day5_3"></td>
+    <td><input type="number" name="total_3" readonly></td>
+  </tr>
+
+  <!-- Row 4 -->
+  <tr>
+    <td><input type="text" name="product_4"></td>
+    <td><input type="text" name="price_4"></td>
+    <td><input type="checkbox" name="na_4"></td>
+    <td><input type="number" name="day1_4"></td>
+    <td><input type="number" name="day2_4"></td>
+    <td><input type="number" name="day3_4"></td>
+    <td><input type="number" name="day4_4"></td>
+    <td><input type="number" name="day5_4"></td>
+    <td><input type="number" name="total_4" readonly></td>
+  </tr>
+
+  <!-- Row 5 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+    
+     <!-- Row 6 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+    
+     <!-- Row 7 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+    
+     <!-- Row 8 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+    
+     <!-- Row 9 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+    
+     <!-- Row 10 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+    
+     <!-- Row 11 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+    
+     <!-- Row 12 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+    
+     <!-- Row 13 -->
+  <tr>
+    <td><input type="text" name="product_5"></td>
+    <td><input type="text" name="price_5"></td>
+    <td><input type="checkbox" name="na_5"></td>
+    <td><input type="number" name="day1_5"></td>
+    <td><input type="number" name="day2_5"></td>
+    <td><input type="number" name="day3_5"></td>
+    <td><input type="number" name="day4_5"></td>
+    <td><input type="number" name="day5_5"></td>
+    <td><input type="number" name="total_5" readonly></td>
+  </tr>
+</table>
+
+      
+
+
+<!-- Campaign Statistics -->
+<h3>Campaign Statistics</h3>
+<table>
+  <tr>
+    <th>Giveaway Type</th>
+    <th>Quantity</th>
+  </tr>
+
+  <!-- Caps -->
+  <tr>
+    <td>Knorr Caps</td>
+    <td><input type="number" name="caps"></td>
+  </tr>
+
+  <!-- T-Shirts -->
+  <tr>
+    <td>Knorr T-Shirts</td>
+    <td><input type="number" name="tshirts"></td>
+  </tr>
+
+  <!-- Knorr Container -->
+  <tr>
+    <td>Knorr Container</td>
+    <td><input type="number" name="knorr_container"></td>
+  </tr>
+
+  <!-- Knorr Bowl -->
+  <tr>
+    <td><input type="text" name="Knorr Bowl" placeholder="Knorr Bowl"></td>
+    <td><input type="number" name="Knorr Bowl"></td>
+  </tr>
+
+  <!-- R50 Airtime -->
+  <tr>
+    <td><input type="text" name="R50 Airtime" placeholder="R50 Airtime"></td>
+    <td><input type="number" name="R50 Airtime"></td>
+  </tr>
+</table>
+
+
+
+<!-- Competitor Activity -->
+<h3>Competitor Activity</h3>
+<table>
+  <tr>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Display</th>
+  </tr>
+
+  <!-- Row 1 -->
+  <tr>
+    <td><input type="text" name="competitor1_name"></td>
+    <td><input type="text" name="competitor1_price"></td>
+    <td>
+      <select name="competitor1_display">
+        <option value="">--Select--</option>
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+      </select>
+    </td>
+  </tr>
+
+  <!-- Row 2 -->
+  <tr>
+    <td><input type="text" name="competitor2_name"></td>
+    <td><input type="text" name="competitor2_price"></td>
+    <td>
+      <select name="competitor2_display">
+        <option value="">--Select--</option>
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+      </select>
+    </td>
+  </tr>
+
+  <!-- Row 3 -->
+  <tr>
+    <td><input type="text" name="competitor3_name"></td>
+    <td><input type="text" name="competitor3_price"></td>
+    <td>
+      <select name="competitor3_display">
+        <option value="">--Select--</option>
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+      </select>
+    </td>
+  </tr>
+
+  <!-- Row 4 -->
+  <tr>
+    <td><input type="text" name="competitor4_name"></td>
+    <td><input type="text" name="competitor4_price"></td>
+    <td>
+      <select name="competitor4_display">
+        <option value="">--Select--</option>
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+      </select>
+    </td>
+  </tr>
+
+  <!-- Row 5 -->
+  <tr>
+    <td><input type="text" name="competitor5_name"></td>
+    <td><input type="text" name="competitor5_price"></td>
+    <td>
+      <select name="competitor5_display">
+        <option value="">--Select--</option>
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+      </select>
+    </td>
+  </tr>
+</table>
+
+<!-- People Approached Time Table -->
+<h3>People Approached (by Time)</h3>
+<table>
+  <tr>
+    <th>Time Slot</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+  </tr>
+
+  <tr>
+    <td>8–9am</td>
+    <td><input type="number" name="day1_8_9"></td>
+    <td><input type="number" name="day2_8_9"></td>
+    <td><input type="number" name="day3_8_9"></td>
+  </tr>
+
+  <tr>
+    <td>9–10am</td>
+    <td><input type="number" name="day1_9_10"></td>
+    <td><input type="number" name="day2_9_10"></td>
+    <td><input type="number" name="day3_9_10"></td>
+  </tr>
+
+  <tr>
+    <td>10–11am</td>
+    <td><input type="number" name="day1_10_11"></td>
+    <td><input type="number" name="day2_10_11"></td>
+    <td><input type="number" name="day3_10_11"></td>
+  </tr>
+
+  <tr>
+    <td>11–12pm</td>
+    <td><input type="number" name="day1_11_12"></td>
+    <td><input type="number" name="day2_11_12"></td>
+    <td><input type="number" name="day3_11_12"></td>
+  </tr>
+
+  <tr>
+    <td>12–1pm</td>
+    <td><input type="number" name="day1_12_1"></td>
+    <td><input type="number" name="day2_12_1"></td>
+    <td><input type="number" name="day3_12_1"></td>
+  </tr>
+
+  <tr>
+    <td>1–2pm</td>
+    <td><input type="number" name="day1_1_2"></td>
+    <td><input type="number" name="day2_1_2"></td>
+    <td><input type="number" name="day3_1_2"></td>
+  </tr>
+
+  <tr>
+    <td>2–3pm</td>
+    <td><input type="number" name="day1_2_3"></td>
+    <td><input type="number" name="day2_2_3"></td>
+    <td><input type="number" name="day3_2_3"></td>
+  </tr>
+
+  <tr>
+    <td>3–4pm</td>
+    <td><input type="number" name="day1_3_4"></td>
+    <td><input type="number" name="day2_3_4"></td>
+    <td><input type="number" name="day3_3_4"></td>
+  </tr>
+
+  <tr>
+    <td>4–5pm</td>
+    <td><input type="number" name="day1_4_5"></td>
+    <td><input type="number" name="day2_4_5"></td>
+    <td><input type="number" name="day3_4_5"></td>
+  </tr>
+</table>
+
+    
+  <!-- Consumer Feedback -->
+  <h3>Consumer Feedback</h3>
+  <table>
+    <tr><td>Weather Conditions</td>
+      <td>
+        <select name="weather">
+          <option value="">--Select--</option>
+          <option value="windy">WINDY</option>
+          <option value="sunny">SUNNY</option>
+          <option value="rainy">RAINY</option>
+          <option value="cloudy">CLOUDY</option>
+        </select><br><br>
+          <br><br>
+          
+          
+          
+          <button onclick="location.href='campaign insight.html'">Next Page</button>
+      </
+         
+    
+          
+          
